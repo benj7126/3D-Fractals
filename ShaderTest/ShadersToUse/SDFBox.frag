@@ -89,7 +89,7 @@ float rayToSky(vec3 pos)
 
 vec4 effect( vec4 color, Image tex, vec2 texture_coords, vec2 screen_coords )
 {
-    texture_coords = vec2(screen_coords.x/600, screen_coords.y/600);
+    texture_coords = vec2(screen_coords.x/1920, screen_coords.y/1080);
     vec2 texture_coords_center = texture_coords-0.5;
 
     vec3 ro = xyzOffset;

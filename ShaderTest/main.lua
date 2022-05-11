@@ -24,7 +24,7 @@ reloadShaderLib()
 
 local ui = false
 
-love.window.setMode(600, 600)
+love.window.setMode(1920, 1080)
 
 love.mouse.setGrabbed(true)
 love.mouse.setVisible(false)

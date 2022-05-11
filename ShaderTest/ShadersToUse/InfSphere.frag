@@ -7,7 +7,7 @@ uniform vec3 xyzOffset;
 uniform vec2 vecForManip[10];
 
 float infSphere(vec3 pos){
-    pos = pos + 1 * vec3(0, -0.5, 1);
+    pos = pos + 1 * vec3(0, -0.5, 1+time);
 
     return distance(mod(pos, 2), vec3(1, 1, 1))-0.54321;
 }
